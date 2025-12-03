@@ -1,0 +1,24 @@
+// _vwap_bands
+
+value1 = avg(high, low, close);
+value2 = value2[1] + (volume * value1 * value1);
+value3 = value3[1] + (volume * value1);
+value4 = value4[1] + volume;
+
+if (bdate[1] != bdate) then {
+   value1 = avg(high, low, close);
+   value2 = volume * value1 * value1;
+   value3 = volume * value1;
+   value4 = volume;
+}
+
+// vwap
+value5 = value3 / value4;
+
+// 표준편차
+value6	= squareroot(max((value2 / value4) - (value5 * value5), 0));
+
+plot1(value5, "vwap");
+plot2(value5 + value6, "upper");
+plot3(value5 - value6, "lower");
+
