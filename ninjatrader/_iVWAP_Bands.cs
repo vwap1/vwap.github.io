@@ -1,7 +1,7 @@
 
 /*
-버그를 수정하고 표준편차 밴드를 추가한 원시 파일
-VWAP_Bands 지표에서 사용한다
+Calculate 옵션에 따라서 폭주하는 버그를 수정
+for 루틴이 제거된 표준편차 추가
 */
 
 #region Using declarations
