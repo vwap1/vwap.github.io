@@ -3,7 +3,7 @@
    if ("index" == document.title) {
      // h3.append("Index");
      const a1 = document.createElement('a');
-     a1.href = "https://vwap1.github.io/vwap.github.io/";
+     a1.href = "/";
      a1.style = "color:royalblue";
      a1.append("Home");
      h3.appendChild(a1);
