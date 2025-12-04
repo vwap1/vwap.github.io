@@ -1,3 +1,3 @@
-# 0x0024.github.io
+# vwap.github.io
 
-[Price Action](https://0x0024.github.io/html/index.html)
+[Price Action](https://vwap.github.io/html/index.html)
